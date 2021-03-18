@@ -6,8 +6,7 @@ ls -lt | tail – 1
 
 #Question 2
 #!/bin/bash
-if [$* == “”]
-then
+if [$* == “”] ; then
         echo “This is not funny”
 else
         echo “This is funny”
